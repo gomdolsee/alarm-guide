@@ -1,0 +1,186 @@
+:root {
+  --text: #1f2937;
+  --muted: #374151;
+  --bg: #ffffff;
+  --line: #e5e7eb;
+  --chip-bg: #f3f4f6;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+}
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  font-family: -apple-system, BlinkMacSystemFont, "Apple SD Gothic Neo",
+    "Pretendard", "Noto Sans KR", "Segoe UI", sans-serif;
+  line-height: 1.75;
+  word-break: keep-all;
+}
+
+.container {
+  width: 100%;
+  max-width: 860px;
+  margin: 0 auto;
+  padding: 20px 20px 48px;
+}
+
+.page-title {
+  font-size: 3rem;
+  line-height: 1.15;
+  font-weight: 800;
+  letter-spacing: -0.02em;
+  margin: 0 0 28px;
+}
+
+.lead {
+  font-size: 1.15rem;
+  color: var(--muted);
+  margin: 0 0 18px;
+}
+
+.section {
+  margin-top: 42px;
+}
+
+.section-title {
+  font-size: 2rem;
+  line-height: 1.25;
+  font-weight: 800;
+  margin: 0 0 18px;
+}
+
+.subsection-title {
+  font-size: 1.45rem;
+  line-height: 1.35;
+  font-weight: 800;
+  margin: 28px 0 10px;
+}
+
+.paragraph {
+  font-size: 1.15rem;
+  margin: 0 0 16px;
+}
+
+.list {
+  margin: 10px 0 0 0;
+  padding-left: 28px;
+  font-size: 1.15rem;
+}
+
+.list li {
+  margin-bottom: 10px;
+}
+
+.number-list {
+  margin: 10px 0 0 0;
+  padding-left: 30px;
+  font-size: 1.15rem;
+}
+
+.number-list li {
+  margin-bottom: 10px;
+}
+
+.note-box {
+  margin-top: 18px;
+  padding: 16px 18px;
+  background: #fafafa;
+  border: 1px solid var(--line);
+  border-radius: 14px;
+}
+
+.note-title {
+  font-size: 1.05rem;
+  font-weight: 800;
+  margin: 0 0 8px;
+}
+
+.note-text {
+  font-size: 1.05rem;
+  margin: 0;
+}
+
+.image-block {
+  margin-top: 20px;
+}
+
+.guide-image {
+  width: 100%;
+  display: block;
+  border-radius: 16px;
+  border: 1px solid var(--line);
+  background: #fff;
+}
+
+.image-caption {
+  font-size: 0.98rem;
+  color: #6b7280;
+  margin-top: 8px;
+}
+
+.divider {
+  margin: 34px 0;
+  border: 0;
+  border-top: 1px solid var(--line);
+}
+
+.link-list {
+  display: grid;
+  gap: 12px;
+  margin-top: 20px;
+}
+
+.link-card {
+  display: block;
+  text-decoration: none;
+  color: inherit;
+  border: 1px solid var(--line);
+  border-radius: 16px;
+  padding: 16px 18px;
+  background: #fff;
+}
+
+.link-card-title {
+  font-size: 1.15rem;
+  font-weight: 700;
+  margin: 0 0 4px;
+}
+
+.link-card-desc {
+  font-size: 1rem;
+  color: #6b7280;
+  margin: 0;
+}
+
+@media (max-width: 640px) {
+  .container {
+    padding: 18px 16px 40px;
+  }
+
+  .page-title {
+    font-size: 2.35rem;
+    margin-bottom: 24px;
+  }
+
+  .section-title {
+    font-size: 1.75rem;
+  }
+
+  .subsection-title {
+    font-size: 1.28rem;
+  }
+
+  .paragraph,
+  .lead,
+  .list,
+  .number-list {
+    font-size: 1.02rem;
+  }
+}
