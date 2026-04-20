@@ -123,12 +123,12 @@ body {
 
 /* 가로가 긴 이미지 */
 .guide-image-wide {
-  width: min(100%, 620px);
+  width: min(100%, 450px);
 }
 
 /* 세로가 긴 이미지 */
 .guide-image-tall {
-  width: min(100%, 340px);
+  width: min(100%, 280px);
 }
 
 .image-caption {
