@@ -264,3 +264,11 @@ body {
 .mission-accordion[open] .mission-toggle-text::before {
   content: "− 접기";
 }
+
+body.en .mission-toggle-text::before {
+  content: "+ Expand";
+}
+
+body.en .mission-accordion[open] .mission-toggle-text::before {
+  content: "− Collapse";
+}
