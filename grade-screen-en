@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Using the Grade Screen</title>
+  <link rel="stylesheet" href="./css/guide.css" />
+</head>
+<body class="en">
+  <main class="container">
+    <h1 class="page-title">Using the Grade Screen</h1>
+
+    <p class="lead">
+      The Grade Screen lets you track your wake-up success record and see visual changes as you progress through stages.
+    </p>
+
+    <p class="paragraph">
+      This feature is applied to the screen that appears when a general alarm rings.
+      If you tap the dismiss button within 6 seconds when the first alarm of the day rings, your count will increase.
+      When the count reaches 20, you will move up to the next stage.
+    </p>
+
+    <section class="section">
+      <h2 class="section-title">Grade Screen Settings</h2>
+
+      <p class="paragraph">
+        On the settings screen, you can check your current stage, accumulated count, and selected theme.
+        You can also reset your progress if needed.
+      </p>
+
+      <div class="image-block">
+        <img class="guide-image guide-image-tall" src="./images/grade/grade_setting.jpg" alt="Grade screen settings" />
+        <p class="image-caption">Check your current grade screen settings and progress.</p>
+      </div>
+    </section>
+
+    <section class="section">
+      <h2 class="section-title">How It Changes on the Alarm Screen</h2>
+
+      <p class="paragraph">
+        When the grade feature is enabled, the alarm screen background and object change according to your current stage.
+      </p>
+
+      <h3 class="subsection-title">Stage 1 Example</h3>
+      <p class="paragraph">
+        For the ore theme, the basic ore image is displayed at the first stage.
+      </p>
+
+      <div class="image-block">
+        <img class="guide-image guide-image-tall" src="./images/grade/grade_setting1.jpg" alt="Grade screen stage 1 example" />
+      </div>
+
+      <h3 class="subsection-title">After Leveling Up</h3>
+      <p class="paragraph">
+        As your count increases and your stage goes up, the image grade also increases.
+      </p>
+
+      <div class="image-block">
+        <img class="guide-image guide-image-tall" src="./images/grade/grade_setting3.jpg" alt="Grade screen after leveling up" />
+      </div>
+    </section>
+
+    <section class="section">
+      <h2 class="section-title">Please Note</h2>
+
+      <p class="paragraph">
+        The grade count only applies to the first alarm of the day.
+        If you want to build your progress, try to respond as quickly as possible when your first alarm rings.
+      </p>
+
+      <p class="paragraph">
+        You can reset your progress from the settings screen, and you can enable or disable the feature whenever needed.
+      </p>
+    </section>
+  </main>
+</body>
+</html>

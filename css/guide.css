@@ -109,14 +109,26 @@ body {
 
 .image-block {
   margin-top: 20px;
+  text-align: center;
 }
 
+/* 기본 이미지 공통 스타일 */
 .guide-image {
-  width: 100%;
   display: block;
+  margin: 0 auto;
   border-radius: 16px;
   border: 1px solid var(--line);
   background: #fff;
+}
+
+/* 가로가 긴 이미지 */
+.guide-image-wide {
+  width: min(100%, 620px);
+}
+
+/* 세로가 긴 이미지 */
+.guide-image-tall {
+  width: min(100%, 340px);
 }
 
 .image-caption {
@@ -183,4 +195,72 @@ body {
   .number-list {
     font-size: 1.02rem;
   }
+}
+
+.mission-accordion {
+  margin-top: 16px;
+  border: 1px solid var(--line);
+  border-radius: 16px;
+  overflow: hidden;
+  background: #fff;
+}
+
+.mission-accordion + .mission-accordion {
+  margin-top: 12px;
+}
+
+.mission-summary {
+  list-style: none;
+  cursor: pointer;
+  padding: 18px 20px;
+  font-size: 1.25rem;
+  font-weight: 800;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.mission-summary::-webkit-details-marker {
+  display: none;
+}
+
+.mission-arrow {
+  flex: 0 0 auto;
+  transition: transform 0.2s ease;
+  font-size: 1rem;
+  color: #6b7280;
+}
+
+.mission-accordion[open] .mission-arrow {
+  transform: rotate(180deg);
+}
+
+.mission-content {
+  padding: 0 20px 20px;
+  border-top: 1px solid var(--line);
+}
+
+.mission-content .paragraph:first-child,
+.mission-content .list:first-child {
+  margin-top: 16px;
+}
+
+.mission-toggle-text {
+  flex: 0 0 auto;
+  font-size: 0.95rem;
+  font-weight: 700;
+  color: #6b7280;
+  background: #f3f4f6;
+  border: 1px solid #e5e7eb;
+  border-radius: 999px;
+  padding: 4px 10px;
+}
+
+.mission-toggle-text::before {
+  content: "+ 펼치기";
+}
+
+.mission-accordion[open] .mission-toggle-text::before {
+  content: "− 접기";
 }

@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Alarm Missions</title>
+  <link rel="stylesheet" href="./css/guide.css" />
+</head>
+<body class="en">
+  <main class="container">
+    <h1 class="page-title">Alarm Missions</h1>
+
+    <p class="lead">
+      Mission alarms can only be dismissed after completing the required mission.
+      They are designed to help you wake up more reliably.
+    </p>
+
+    <section class="section">
+      <h2 class="section-title">How to Dismiss a Mission Alarm</h2>
+
+      <p class="paragraph">
+        To dismiss a mission alarm, complete the assigned mission within the time limit.
+      </p>
+
+      <p class="paragraph">
+        You can change the time limit in the app’s Settings screen.
+      </p>
+    </section>
+
+    <section class="section">
+      <h2 class="section-title">Mission Types</h2>
+
+      <details class="mission-accordion">
+        <summary class="mission-summary">
+          <span>Read Your Phrase</span>
+          <span class="mission-toggle-text"></span>
+        </summary>
+        <div class="mission-content">
+          <p class="paragraph">
+            Read aloud the phrase you set in order to dismiss the alarm.
+          </p>
+
+          <div class="image-block">
+            <img class="guide-image guide-image-wide" src="./images/mission/speech1.jpg" alt="Read your phrase mission screen with speak button" />
+            <p class="image-caption">Tap the speak button to start voice recognition.</p>
+          </div>
+
+          <div class="image-block">
+            <img class="guide-image guide-image-wide" src="./images/mission/speech2.jpg" alt="Voice recognition in progress screen" />
+            <p class="image-caption">Your voice is being recognized while the icon is moving.</p>
+          </div>
+        </div>
+      </details>
+
+      <details class="mission-accordion">
+        <summary class="mission-summary">
+          <span>Find the Dismiss Button</span>
+          <span class="mission-toggle-text"></span>
+        </summary>
+        <div class="mission-content">
+          <p class="paragraph">
+            Find the correct dismiss button among several buttons on the screen.
+          </p>
+          <ul class="list">
+            <li>Easy / Normal: Tap the correct button 3 times.</li>
+            <li>Hard: Tap the correct button 5 times.</li>
+          </ul>
+
+          <div class="image-block">
+            <img class="guide-image guide-image-tall" src="./images/mission/finding_button.jpg" alt="Find the dismiss button mission screen" />
+          </div>
+        </div>
+      </details>
+
+      <details class="mission-accordion">
+        <summary class="mission-summary">
+          <span>Shake</span>
+          <span class="mission-toggle-text"></span>
+        </summary>
+        <div class="mission-content">
+          <p class="paragraph">
+            Shake your phone the required number of times shown on the screen to dismiss the alarm.
+          </p>
+          <p class="paragraph">
+            You can adjust the shake sensitivity in the app’s Settings screen.
+          </p>
+        </div>
+      </details>
+
+      <details class="mission-accordion">
+        <summary class="mission-summary">
+          <span>Yell</span>
+          <span class="mission-toggle-text"></span>
+        </summary>
+        <div class="mission-content">
+          <p class="paragraph">
+            Keep the real-time sound level at 70 dB or higher for the set duration.
+          </p>
+          <p class="paragraph">
+            The current sound level is displayed on the screen. If it drops below the required level, you will need to maintain 70 dB or higher again.
+          </p>
+          <p class="paragraph">
+            This is the strongest mission for helping you wake up.
+          </p>
+
+          <div class="image-block">
+            <img class="guide-image guide-image-wide" src="./images/mission/yell.jpg" alt="Yell mission screen" />
+            <p class="image-caption">Watch the dB value on the screen and keep it above the required level.</p>
+          </div>
+        </div>
+      </details>
+
+      <div class="image-block">
+        <img class="guide-image guide-image-tall" src="./images/mission/mission_overview.jpg" alt="Mission alarm example screen" />
+      </div>
+    </section>
+
+    <section class="section">
+      <h2 class="section-title">When You Do Not Want to Use a Mission</h2>
+      <p class="paragraph">
+        Select <strong>“No Mission”</strong> if you do not want to use a mission.
+      </p>
+    </section>
+
+    <section class="section">
+      <h2 class="section-title">Please Note</h2>
+
+      <p class="paragraph">
+        If you leave the mission screen without completing the mission, the alarm will ring again whenever the time limit expires.
+      </p>
+
+      <p class="paragraph">
+        If you are unable to complete the mission, you can restart your phone to clear the alarm.
+      </p>
+    </section>
+  </main>
+</body>
+</html>

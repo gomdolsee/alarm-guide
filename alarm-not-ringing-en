@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Alarm Is Not Ringing</title>
+  <link rel="stylesheet" href="./css/guide.css" />
+</head>
+<body class="en">
+  <main class="container">
+    <h1 class="page-title">My Alarm Is Not Ringing</h1>
+
+    <p class="lead">
+      If your alarm does not ring or rings late, it is usually related to permissions or your device’s battery settings.
+    </p>
+
+    <p class="paragraph">
+      On Android devices, alarm behavior can be affected by battery optimization, background activity restrictions,
+      exact alarm permissions, Do Not Disturb settings, and other system settings.
+    </p>
+
+    <section class="section">
+      <h2 class="section-title">Check These First</h2>
+
+      <ul class="list">
+        <li>Make sure the alarm is turned on in the app.</li>
+        <li>Make sure your device volume is not too low.</li>
+        <li>Make sure notification permission is allowed. This is especially important.</li>
+        <li>Make sure “Display over other apps” permission is allowed if the full-screen alarm does not appear.</li>
+        <li>Check whether Do Not Disturb access is required.</li>
+        <li>Set the app as an exception to battery optimization.</li>
+        <li>Restart your device and try again.</li>
+      </ul>
+    </section>
+
+    <section class="section">
+      <h2 class="section-title">Guide</h2>
+
+      <p class="paragraph">
+        In most cases, allowing the required permissions and adjusting battery settings will solve the problem.
+      </p>
+
+      <p class="paragraph">
+        For stable alarm operation, this app may be affected by your device settings.
+        We recommend checking the related settings when using the app for the first time.
+      </p>
+    </section>
+  </main>
+</body>
+</html>

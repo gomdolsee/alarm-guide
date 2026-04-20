@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "../html5-book"
+		},
+		{
+			"path": "../js-file"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "js-file"
+	}
+}

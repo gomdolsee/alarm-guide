@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Using Interval Alarms</title>
+  <link rel="stylesheet" href="./css/guide.css" />
+</head>
+<body class="en">
+  <main class="container">
+    <h1 class="page-title">Using Interval Alarms</h1>
+
+    <p class="lead">
+      Interval alarms are useful when you want repeated alerts at regular intervals.
+    </p>
+
+    <p class="paragraph">
+      They can be used for focused work sessions, break management, exercise routines, or any situation where repeated reminders are helpful.
+    </p>
+
+    <section class="section">
+      <h2 class="section-title">Getting Started with Interval Alarms</h2>
+
+      <p class="paragraph">
+        On the Interval Alarm screen, tap the + button at the bottom to add a new interval alarm.
+      </p>
+
+      <p class="paragraph">
+        Set the title, active time, break time, number of sets, and other options. Once started, alerts will repeat according to the interval you set.
+      </p>
+
+      <div class="image-block">
+        <img class="guide-image guide-image-tall" src="./images/interval/interval.jpg" alt="Add interval alarm screen example" />
+      </div>
+    </section>
+
+    <section class="section">
+      <h2 class="section-title">Checking the Running Status</h2>
+
+      <p class="paragraph">
+        When an interval alarm is running, its current status appears in the notification area.
+      </p>
+
+      <p class="paragraph">
+        The notification shows whether you are in an active or break phase, the remaining time, and the current set information.
+      </p>
+
+      <p class="paragraph">
+        You can also pause or stop the interval alarm directly from the notification.
+      </p>
+
+      <div class="image-block">
+        <img class="guide-image guide-image-wide" src="./images/interval/interval2.jpg" alt="Interval alarm notification example" />
+        <p class="image-caption">Check the current interval alarm status and control it directly from the notification.</p>
+      </div>
+    </section>
+
+    <section class="section">
+      <h2 class="section-title">Example Uses</h2>
+
+      <ul class="list">
+        <li>Splitting study time and break time</li>
+        <li>Managing workout routines</li>
+        <li>Setting reminders for tasks that need regular checks</li>
+      </ul>
+    </section>
+
+    <section class="section">
+      <h2 class="section-title">Please Note</h2>
+
+      <p class="paragraph">
+        Interval alarms serve a different purpose from regular wake-up alarms, so we recommend using them according to your situation.
+      </p>
+
+      <p class="paragraph">
+        For long sessions, it is convenient to check the current progress from the notification area.
+      </p>
+    </section>
+  </main>
+</body>
+</html>
