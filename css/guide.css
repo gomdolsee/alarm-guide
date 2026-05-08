@@ -122,6 +122,25 @@ body {
   height: auto;
 }
 
+.grade-preview-row {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 18px;
+  margin-top: 20px;
+  flex-wrap: wrap;
+}
+
+.grade-preview-item {
+  text-align: center;
+}
+
+.grade-preview-title {
+  font-size: 1.02rem;
+  font-weight: 800;
+  margin: 0 0 10px;
+}
+
 /* 가로가 긴 이미지 */
 .guide-image-wide {
   width: min(100%, 420px);
@@ -129,7 +148,11 @@ body {
 
 /* 세로가 긴 이미지 */
 .guide-image-tall {
-  width: min(100%, 270px);
+  width: min(100%, 230px);
+}
+
+.guide-image-tall-sm {
+  width: min(100%, 180px);
 }
 
 .image-caption {
